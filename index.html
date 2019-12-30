@@ -121,8 +121,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<nav class="cl-effect-15" id="cl-effect-15">
 								<ul>
 									<li><a href="#home" class="active" data-hover="Home">Home</a></li>
-									<li><a href="#register" class="scroll" data-hover="Register">Register</a></li>
 									<li><a href="#info" class="scroll" data-hover="Info">Info</a></li>
+
+									<li><a href="#register" class="scroll" data-hover="Register">RSVP</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -343,59 +344,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 	<!-- //Team -->
-	<!-- Register -->
-	<div class="register-main" id="register">
-		<div class="col-md-6" data-aos="zoom-in" style="		vertical-align: middle;		">
-			<img class="my-img" src="images/gatsby.jpg"></img>
-		</div>
-		<div class="col-md-6 register-right" data-aos="fade-up">
-			<h3 class="spl-title-w3-agileits">The Roaring 20's Are Back</h3>
-			<p class="paragraph two">Enjoy a nice night with friends at Sophia's house while showing off your love for The Great Gatsby.</p>
-			<div class="form-buttons">
-				<a href="#" data-toggle="modal" data-target="#myModal3"><span class="fa fa-pencil-square-o"
-						aria-hidden="true"></span> RSVP</a>
-			</div>
-		</div>
-		<div class="clearfix"> </div>
-	</div>
-	<!-- // Register -->
-	<!-- Modal3 -->
-	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
-		<div class="modal-dialog">
-			<!-- Modal content-->
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-
-					<div class="signin-form profile">
-						<h3 class="register-title">RSVP</h3>
-						<form id="form">
-							<div class="fields-main"a>
-								<div class="fields">
-									<input type="text" name="Name" placeholder="Name" required="">
-								</div>
-								<div class="fields">
-									<input type="email" name="Email" placeholder="Email" required="">
-								</div>
-							</div>
-							<div class="fields-main">
-								<div class="fields">
-									<input type="text" name="Number" placeholder="Number" required="">
-								</div>
-							
-							</div>
-							
-							<input type="submit" value="Submit" onclick="saveToFirebase(document.forms[0].elements[0].value, document.forms[0].elements[1].value, document.forms[0].elements[2].value)">
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- //Modal3 -->
-
-	<!-- Pricing -->
 	<div class="prices" id="info">
 		<div class="container">
 			<h3 class="agileinfo-tittle">Event Info</h3>
@@ -452,6 +400,60 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<font size="1px">but you will be lame</font>
 		</div>
 	</div>
+	<!-- Register -->
+	<div class="register-main" id="register">
+		<div class="col-md-6" data-aos="zoom-in" style="		vertical-align: middle;		">
+			<img class="my-img" src="images/gatsby.jpg"></img>
+		</div>
+		<div class="col-md-6 register-right" data-aos="fade-up">
+			<h3 class="spl-title-w3-agileits">The Roaring 20's Are Back</h3>
+			<p class="paragraph two">Enjoy a nice night with friends at Sophia's house while showing off your love for The Great Gatsby.</p>
+			<div class="form-buttons">
+				<a href="#" data-toggle="modal" data-target="#myModal3"><span class="fa fa-pencil-square-o"
+						aria-hidden="true"></span> RSVP</a>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	<!-- // Register -->
+	<!-- Modal3 -->
+	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+
+					<div class="signin-form profile">
+						<h3 class="register-title">RSVP</h3>
+						<form id="form">
+							<div class="fields-main"a>
+								<div class="fields">
+									<input type="text" name="Name" placeholder="Name" required="">
+								</div>
+								<div class="fields">
+									<input type="email" name="Email" placeholder="Email" required="">
+								</div>
+							</div>
+							<div class="fields-main">
+								<div class="fields">
+									<input type="text" name="Number" placeholder="Number" required="">
+								</div>
+							
+							</div>
+							
+							<input type="submit" value="Submit" onclick="saveToFirebase(document.forms[0].elements[0].value, document.forms[0].elements[1].value, document.forms[0].elements[2].value)">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- //Modal3 -->
+
+	<!-- Pricing -->
+
 	<!--// Pricing
 	<div class="subscribe-section">
 		<div class="container">
